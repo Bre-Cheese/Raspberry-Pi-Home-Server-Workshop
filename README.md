@@ -18,8 +18,6 @@ So even if your Pi has an IP address, other devices usually **cannot** reach it.
 
 This works because the browser and the services are running on the **same Raspberry Pi**.
 
-**Optional homework (later, on a home network):** try accessing Portainer from another device using `http://<pi-ip>:9000`.
-
 ---
 
 ## Table of Contents
@@ -366,9 +364,6 @@ With a stronger server you can:
 sudo usermod -aG docker $USER
 sudo reboot
 ```
-
-**Port already in use**
-Change the left side of `HOST:CONTAINER` (e.g., `8080:80` → `8082:80`) and redeploy.
 
 **Portainer won’t open**
 ```bash
