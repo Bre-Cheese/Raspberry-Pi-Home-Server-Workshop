@@ -2,7 +2,7 @@
 
 A **2-hour, beginner-friendly** workshop for 1st/2nd year engineering & computer science students (and anyone curious) showing how a Raspberry Pi can run real services at home using **Docker** and **Portainer**.
 
-> **Important:** OS flashing is **pre-done by the instructor**. Attendees start from:  
+> **Important:** OS flashing is **pre-done already**. Attendees start from:  
 > **“My Pi is on the network and I can SSH into it.”**
 
 ---
