@@ -225,16 +225,7 @@ Deploy, then open on the Pi:
 
 ---
 
-## 4) What now? Lightweight services mini-game
-
-### 4.1 Rules
-Deploy **2–3 services** below using Portainer Stacks.
-
-To “complete” a service:
-- open the service page in the Pi browser (`http://127.0.0.1:<port>`), and
-- show its logs in Portainer (or explain what it does).
-
-### 4.2 Choose 2–3 services
+## 4) What now? Lightweight services you can try 
 
 #### A) Uptime Kuma (monitoring)
 ```yaml
@@ -255,9 +246,6 @@ volumes:
 Open:
 - `http://127.0.0.1:3001`
 
-Challenge:
-- Add a monitor for `http://127.0.0.1:8080`
-
 ---
 
 #### B) Dozzle (view Docker logs in a browser)
@@ -276,9 +264,6 @@ services:
 
 Open:
 - `http://127.0.0.1:9999`
-
-Challenge:
-- Find `whoami` logs; refresh `http://127.0.0.1:8080` to generate new log entries.
 
 ---
 
@@ -305,8 +290,6 @@ volumes:
 Open:
 - `http://127.0.0.1:8081`
 
-Challenge:
-- Upload a file and explain what a **volume** is.
 
 ---
 
@@ -329,18 +312,6 @@ volumes:
 
 Open:
 - `http://127.0.0.1:3000`
-
-Challenge:
-- Explain what data is stored in the volume.
-
----
-
-### 4.3 Scoreboard (target 10 points)
-- +2 deploy a service and show it works
-- +2 find logs in Portainer and explain one meaningful line
-- +1 explain one port mapping like `8081:80`
-- +2 change one setting (env var / port / restart policy) and redeploy successfully
-- +3 help another team debug (and explain the fix)
 
 ---
 
