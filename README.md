@@ -21,7 +21,7 @@ This works because the browser and the services are running on the **same Raspbe
 ---
 
 ## Table of Contents
-- [0) Workshop flow (2 hours)](#0-workshop-flow-2-hours)
+- [0) Workshop flow (2 hours)](#0-workshop-flow)
 - [1) Why home servers are important](#1-why-home-servers-are-important)
 - [2) Why Docker and Portainer?](#2-why-docker-and-portainer)
 - [3) How to do it (hands-on lab)](#3-how-to-do-it-hands-on-lab)
@@ -41,17 +41,17 @@ This works because the browser and the services are running on the **same Raspbe
 
 ---
 
-## 0) Workshop flow (2 hours)
+## 0) Workshop flow
 
 **End goal:** Docker installed + Portainer running + 2–3 services deployed.
 
-- **0:00–0:10** Intro + safety + confirm internet works on each Pi
-- **0:10–0:25** Why home servers?
-- **0:25–0:40** Why Docker + Portainer?
-- **0:40–1:05** Install Docker + verify
-- **1:05–1:25** Install Portainer + learn the UI
-- **1:25–1:55** Mini-game: deploy 2–3 services
-- **1:55–2:00** Scaling up + wrap
+  1- Intro + safety + confirm internet works on each Pi
+  2- Why home servers?
+  3- Why Docker + Portainer?
+  4- Install Docker + verify
+  5- Install Portainer + learn the UI
+  6- Mini-game: deploy 2–3 services
+  6- Scaling up + wrap
 
 ---
 
